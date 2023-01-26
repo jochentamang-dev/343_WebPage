@@ -1,0 +1,70 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: rgb(247, 220, 172);
+    margin: 4px;
+}
+#myself img{
+    width: 250px;
+    height: auto;
+    float: right;
+    margin-left: 10px;
+    border-radius: 10px;
+
+}
+#myself p{
+    text-align:justify;
+}
+#header {
+    text-align: center;
+}
+#parent-container{
+    display: grid;
+    grid-template-columns: 30% 15% 1fr 15%;
+    grid-template-rows: 100px 1fr 1fr 100px;
+    grid-template-areas: "one two two two"
+                        "three four four five"
+                        "three six seven seven"
+                        "three eight eight eight";
+                        
+    height: 100vh;
+}
+.child-container
+{
+    background-color: rgb(68, 68, 66);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2px;
+}
+.area-1{
+    grid-area: one;
+    display: flex;
+    padding: 2px;
+    justify-content: center;
+}
+.area-1 img {
+    height: 100%;
+    width: auto;
+}
+.area-2{
+    grid-area: two;
+}
+.area-3{
+    grid-area: three;
+}
+.area-4{
+    grid-area: four;
+}
+.area-5{
+    grid-area: five;
+}
+.area-6{
+    grid-area: six;
+}
+.area-7{
+    grid-area: seven;
+}
+.area-8{
+    grid-area: eight;
+    height:100%;
+}

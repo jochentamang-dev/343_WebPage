@@ -1,0 +1,2 @@
+I used grid: area, class notes, and prior knowledge to first built the structure and layout of each area. I changed the background color to different colors for each areas to help me debug.
+ I also use web developer tools to look at margins and paddings around my page and remove them.
