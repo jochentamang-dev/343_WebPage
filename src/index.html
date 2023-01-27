@@ -15,26 +15,26 @@
       <img src="/img/jochen.jpg" alt="" />
 
       <p>
-        To start, put a heading with your name at the top of page. Then place a
-        picture of yourself (it can be silly but again it would be nice to have
-        something I can recognize) so that it appears on the right side of the
-        page (use CSS float). Then have one or more paragraphs to the left of
-        your picture that wrap around it. To show the text wrapping effect be
-        sure to include sufficiently long text in your paragraph(s) and specify
-        the image size so it's not too big/tall. To start, put a heading with
-        your name at the top of page. Then place a picture of yourself (it can
-        be silly but again it would be nice to have something I can recognize)
-        so that it appears on the right side of the page (use CSS float). Then
-        have one or more paragraphs to the left of your picture that wrap around
-        it. To show the text wrapping effect be sure to include sufficiently
-        long text in your paragraph(s) and specify the image size so it's not
-        too big/tall. To start, put a heading with your name at the top of page.
-        Then place a picture of yourself (it can be silly but again it would be
-        nice to have something I can recognize) so that it appears on the right
-        side of the page (use CSS float). Then have one or more paragraphs to
-        the left of your picture that wrap around it. To show the text wrapping
-        effect be sure to include sufficiently long text in your paragraph(s)
-        and specify the image size so it's not too big/tall.
+        Hello world, my name is Jochen Tamang. I'm a CS major at GVSU :) Hello
+        world, my name is Jochen Tamang. I'm a CS major at GVSU :) Hello world,
+        my name is Jochen Tamang. I'm a CS major at GVSU :) Hello world, my name
+        is Jochen Tamang. I'm a CS major at GVSU :) Hello world, my name is
+        Jochen Tamang. I'm a CS major at GVSU :) Hello world, my name is Jochen
+        Tamang. I'm a CS major at GVSU :) Hello world, my name is Jochen Tamang.
+        I'm a CS major at GVSU :) Hello world, my name is Jochen Tamang. I'm a
+        CS major at GVSU :) Hello world, my name is Jochen Tamang. I'm a CS
+        major at GVSU :) Hello world, my name is Jochen Tamang. I'm a CS major
+        at GVSU :) Hello world, my name is Jochen Tamang. I'm a CS major at GVSU
+        :) Hello world, my name is Jochen Tamang. I'm a CS major at GVSU :)
+        Hello world, my name is Jochen Tamang. I'm a CS major at GVSU :) Hello
+        world, my name is Jochen Tamang. I'm a CS major at GVSU :) Hello world,
+        my name is Jochen Tamang. I'm a CS major at GVSU :) Hello world, my name
+        is Jochen Tamang. I'm a CS major at GVSU :) Hello world, my name is
+        Jochen Tamang. I'm a CS major at GVSU :) Hello world, my name is Jochen
+        Tamang. I'm a CS major at GVSU :) Hello world, my name is Jochen Tamang.
+        I'm a CS major at GVSU :) Hello world, my name is Jochen Tamang. I'm a
+        CS major at GVSU :) Hello world, my name is Jochen Tamang. I'm a CS
+        major at GVSU :)
       </p>
     </div>
     <div id="parent-container">
@@ -42,9 +42,8 @@
         <img src="/img/nepal.jpg" />
       </div>
       <div class="area-2 child-container">
-        Demonstrate use of h1, h2 (or other heading tags) to show your (real
-        name) and your fake phone-number. Include a small phone icon next to
-        your phone number.
+        <h3>Jochen Tamang</h3>
+        <h4><img src="/img/phone.png" />Phone Number: 616-616-6116</h4>
       </div>
       <div class="area-3 child-container">
         Use this area as a "short report" that explains the details how you
@@ -52,18 +51,51 @@
         explain how you build this website.
       </div>
       <div class="area-4 child-container">
-        Demonstrate use of table, tr, td, (and other related tags for creating a
-        table) to show the list of classes you have taken in the past. Include a
-        table header row that shows "Course Number", "Course Name", "Semester
-        Taken". Following the header row, list your past courses. Explore the
-        use of CSS pseudo clasess :nth-child(odd) and :nth-child(even) to
-        alternate the background color of this table. Explore the use of CSS
-        pseudo class :hover to change the background of the table row when the
-        mouse hovers over it.
+        <table id="course_table">
+          <tr>
+            <th style="width: 25%">Course Number</th>
+            <th style="width: 50%">Course Name</th>
+            <th style="width: 25%">Semester taken</th>
+          </tr>
+          <tr>
+            <td>CIS 163</td>
+            <td>Computer Science II</td>
+            <td>Fall 2020</td>
+          </tr>
+          <tr>
+            <td>CIS 263</td>
+            <td>Data Structures & Algorithm</td>
+            <td>Winter 2021</td>
+          </tr>
+          <tr>
+            <td>CIS 241</td>
+            <td>System-Level Programming & Utilities</td>
+            <td>Fall 2021</td>
+          </tr>
+          <tr>
+            <td>CIS 353</td>
+            <td>Database</td>
+            <td>Winter 2022</td>
+          </tr>
+          <tr>
+            <td>CIS 350</td>
+            <td>Intro. to Software Engineering</td>
+            <td>Fall 2022</td>
+          </tr>
+          <tr>
+            <td>CIS 351</td>
+            <td>Computer Organization and Assembly Language</td>
+            <td>Fall 2022</td>
+          </tr>
+          <tr>
+            <td>CIS 290</td>
+            <td>Professional Responsibilities and Practices</td>
+            <td>Fall 2022</td>
+          </tr>
+        </table>
       </div>
       <div class="area-5 child-container">
-        Insert a picture of your choice that relates one of the classes in Area
-        4. Please the picture vertically and horizontally center in Area 5.
+        <img src="/img/sql.png" />
       </div>
       <div class="area-6 child-container">
         Demonstrate use of ul (or ol) and li to create a list of two or more
@@ -72,10 +104,28 @@
         said company.
       </div>
       <div class="area-7 child-container">
-        Insert several paragraphs of text (of your preference). Each paragraph
-        should be long enough so the text will wrap around into three or more
-        lines. Demonstrate use of b, i, and code throughout text in your
-        paragraphs.
+        <p>
+          At its inception in 1990, <strong>HTML</strong> was only intended to provide structure
+          for text-based documents. It had a concept of multiple levels of
+          headings and of body text, but not much else.<br>HTML 2.0 was released in
+          April 1994 and approved by the W3C as a standard in September of 1995,
+          and it brought images. Developers were given very little control over
+          how images were displayed. In fact, image tags supported only two
+          attributes: One for the image source (providing a URL than the image
+          could be downloaded from) and one for the alt text (a message to be
+          shown to the user if the image could not be displayed for some
+          reason). <br>HTML 3.0, released in November 1993, added <code>tables</code>. They were
+          only ever intended to be used to present “tabular data”, meaning data
+          that is inherently two-dimensional. 
+          <br>The intentions of the W3C (the World Wide Web Consortium, the organization responsible for publishing
+          web standards) were ignored by developers, however. Web site creators
+          quickly adopted tables as a means of control page layout. Indeed,
+          tables provided nearly the same level of control that traditional
+          publishers enjoyed.<br>HTML 3.2, published on May 5, 1996, and
+          recommended as a standard in January 1997, introduced design elements
+          such as <code>fonts</code>, <code>colors</code>, and <code>background</code> elements. This development marked the birth of the modern web designer. Suddenly, web pages were
+          no longer about pure content alone, and <b>presentation became king</b><a href="https://educationecosystem.com/guides/programming/html-css/history#:~:text=HTML%2FCSS%20History,1995%2C%20and%20it%20brought%20images."> (<i>Link to the full article)</i>.</a>
+        </p>
       </div>
       <div class="area-8 child-container">
         Include five or more small icons that will take you to social media,
