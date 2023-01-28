@@ -43,12 +43,19 @@
       </div>
       <div class="area-2 child-container">
         <h3>Jochen Tamang</h3>
-        <h4><img src="/img/phone.png" />Phone Number: 616-616-6116</h4>
+        <h4><img src="/img/phone.png" />Phone: 616-616-6116</h4>
       </div>
       <div class="area-3 child-container">
-        Use this area as a "short report" that explains the details how you
-        fullfil all the requirements in the other seven areas. Essentially,
-        explain how you build this website.
+        <ol>
+          <li>Main Layout: I made "parent-container" as the parent of a grid for seven grid child elements. I changed the background-color of those child to see if my layout was correct.</li>
+          <li>Header Layout: I made a seperate <code>div</code> for the header name. Then, I made another <code>div</code> for image and header found on top of the page. I added css to the image to make it float right, have spacing, and be a smaller size. </li>
+          <li>Area 1: After adding the image to area-1, I added CSS to image to make it have height of 100% and width of auto. Then, I made area-1 into a flexbox, which meant img element is a child of that flexbox. By adding justify-content to center for area-1, I was able to center the image horizontally. Note, since height was already 100% for image, I didn't have to center the image vertically.</li>
+          <li>Area 2: I added the phone img inside the h4 element to make the image next to the phone number. I also made area-2 into a flex to align all the child elements vertically and horizontally.</li>
+          <li>Area 4: To make the table, I used <code>table</code>, <code>tr</code>, <code>th</code>, and <code>td</code> elements. To make the table rows pattern, I used :nth-child(row or even) to give even and odd rows different color. I used :nth-child(1) to make the header have a different color from the rest.</li>
+          <li>Area 5: For the image, I made the width be 100% and height be auto to make it fit into the div space. Next, I made area-5 be a flex parent, so I could vertically center the child (img). There was no need to align the img horizontally, since the width is 100%.</li>
+          <li>Are 6,7: These are pretty self-explanatory. For area-6, I used a:visited pseudo element to make a text not change color if the link was visited. I also used a:hover to make the text change color if we hover over the text. </li>
+          <li>Area 8: After adding <code>img</code> inside the <code>a</code> element, I turned area-8 into a flexbox. By using justify-content and align-items, I centered the images with link vertically and horizontally. </li>
+        </ol>
       </div>
       <div class="area-4 child-container">
         <table id="course_table">
@@ -98,42 +105,53 @@
         <img src="/img/sql.png" />
       </div>
       <div class="area-6 child-container">
-        Demonstrate use of ul (or ol) and li to create a list of two or more
-        abbreviated real company names (3-4 letters each). Use a to make the
-        name abbreviation into a link that will take users to the website of the
-        said company.
+        <ul>
+          <li><a href="https://www.microsoft.com/en-us/">MSFT</a></li>
+          <li><a href="https://www.amazon.com/">AMZN</a></li>
+          <li><a href="https://www.netflix.com/">NFLX</a></li>
+          <li><a href="https://twitter.com/">TWT</a></li>
+        </ul>
       </div>
       <div class="area-7 child-container">
         <p>
-          At its inception in 1990, <strong>HTML</strong> was only intended to provide structure
-          for text-based documents. It had a concept of multiple levels of
-          headings and of body text, but not much else.<br>HTML 2.0 was released in
-          April 1994 and approved by the W3C as a standard in September of 1995,
-          and it brought images. Developers were given very little control over
-          how images were displayed. In fact, image tags supported only two
-          attributes: One for the image source (providing a URL than the image
-          could be downloaded from) and one for the alt text (a message to be
-          shown to the user if the image could not be displayed for some
-          reason). <br>HTML 3.0, released in November 1993, added <code>tables</code>. They were
-          only ever intended to be used to present “tabular data”, meaning data
-          that is inherently two-dimensional. 
-          <br>The intentions of the W3C (the World Wide Web Consortium, the organization responsible for publishing
-          web standards) were ignored by developers, however. Web site creators
-          quickly adopted tables as a means of control page layout. Indeed,
-          tables provided nearly the same level of control that traditional
-          publishers enjoyed.<br>HTML 3.2, published on May 5, 1996, and
+          At its inception in 1990, <strong>HTML</strong> was only intended to
+          provide structure for text-based documents. It had a concept of
+          multiple levels of headings and of body text, but not much else.<br /><b
+            >HTML 2.0</b
+          >
+          was released in April 1994 and approved by the W3C as a standard in
+          September of 1995, and it brought images. Developers were given very
+          little control over how images were displayed. In fact, image tags
+          supported only two attributes: One for the image source (providing a
+          URL than the image could be downloaded from) and one for the alt text
+          (a message to be shown to the user if the image could not be displayed
+          for some reason). <br /><b>HTML 3.0</b>, released in November 1993,
+          added <code>tables</code>. They were only ever intended to be used to
+          present “tabular data”, meaning data that is inherently
+          two-dimensional. <br />The intentions of the W3C (the World Wide Web
+          Consortium, the organization responsible for publishing web standards)
+          were ignored by developers, however. Web site creators quickly adopted
+          tables as a means of control page layout. Indeed, tables provided
+          nearly the same level of control that traditional publishers
+          enjoyed.<br /><b>HTML 3.2</b>, published on May 5, 1996, and
           recommended as a standard in January 1997, introduced design elements
-          such as <code>fonts</code>, <code>colors</code>, and <code>background</code> elements. This development marked the birth of the modern web designer. Suddenly, web pages were
-          no longer about pure content alone, and <b>presentation became king</b><a href="https://educationecosystem.com/guides/programming/html-css/history#:~:text=HTML%2FCSS%20History,1995%2C%20and%20it%20brought%20images."> (<i>Link to the full article)</i>.</a>
+          such as <code>fonts</code>, <code>colors</code>, and
+          <code>background</code> elements. This development marked the birth of
+          the modern web designer. Suddenly, web pages were no longer about pure
+          content alone, and <b>presentation became king</b
+          ><a
+            href="https://educationecosystem.com/guides/programming/html-css/history#:~:text=HTML%2FCSS%20History,1995%2C%20and%20it%20brought%20images."
+          >
+            (<i>Link to the full article)</i>.</a
+          >
         </p>
       </div>
       <div class="area-8 child-container">
-        Include five or more small icons that will take you to social media,
-        online, online shopping, etc. Examples are: Twitter, Facebook,
-        Instagram, GitHub, Pinterest, and many more. The icons should represent
-        the identity of the company, i.e. use the bird logo for Twitter, etc.
-        Demonstrate use of Flex box to place these icons space evenly and
-        vertically centered.
+        <a href="https://www.amazon.com"><img src="/img/amazon.jpg"></a>
+        <a href="https://www.53.com/content/fifth-third/en.html"><img src="/img/fifth-third.png"></a>
+        <a href="https://www.nike.com/"><img src="/img/nike.png"></a>
+        <a href="https://www.twitter.com"><img src="/img/twitter.jpg"></a>
+        <a href="https://www.instagram.com"><img src="/img/instagram.png"></a>
       </div>
     </div>
   </body>

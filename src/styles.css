@@ -47,9 +47,10 @@ body{
 .area-1{
     grid-area: one;
     display: flex;
-    padding: 2px;
+    padding: 0px;
     /* centering the flex child */
     justify-content: center;
+
 }
 .area-1 img {
     height: 100%;
@@ -74,6 +75,15 @@ body{
 }
 .area-3{
     grid-area: three;
+    padding: 0px;
+}
+.area-3 ol{
+    list-style:lower-roman ;
+    padding-left: 30px;
+}
+.area-3 ol>li
+{
+    font-size: 13px;
 }
 table,th{
     width: 100%;
@@ -105,7 +115,6 @@ tr:nth-child(1)
     background-color: black;
 }
 
-
 .area-4{
     padding: 0;
     border-radius: 0%;
@@ -116,13 +125,30 @@ tr:nth-child(1)
     background-color: white;
     display: flex;
     align-items: center;
+    padding: 0;
+
 }
 .area-5 img{
     width: 100%;
-    height:fit-content;
+    height:auto;
 }
 .area-6{
     grid-area: six;
+}
+.area-6 ul{
+    list-style: square;
+}
+.area-6 ul li{
+    padding :10px 0px;
+}
+.area-6 a{
+    text-decoration: none;
+}
+.area-6 a:visited{
+    color: inherit;
+}
+.area-6 a:hover{
+    background-color: white;
 }
 .area-7{
     grid-area: seven;
@@ -137,5 +163,12 @@ tr:nth-child(1)
 }
 .area-8{
     grid-area: eight;
-    height:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.area-8 a > img{
+    width: auto;
+    height: 80px;
 }
