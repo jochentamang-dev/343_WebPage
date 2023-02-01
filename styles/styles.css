@@ -115,7 +115,7 @@ tr:nth-child(1)
     background-color: black;
 }
 tr:hover{
-    background-color: burlywood;
+    background-color: hsl(70.31,65.46%,51.18%);
 }
 
 .area-4{
