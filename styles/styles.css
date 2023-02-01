@@ -106,13 +106,16 @@ tr:nth-child(even) {
     color: black
 }
 tr:nth-child(odd ) {
-    background-color: wheat;
+    background-color: rgb(253, 182, 48);
     color: black;
 }
 tr:nth-child(1)
 {
     color: white;
     background-color: black;
+}
+tr:hover{
+    background-color: burlywood;
 }
 
 .area-4{
