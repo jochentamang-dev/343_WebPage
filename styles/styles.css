@@ -1,3 +1,32 @@
+@keyframes slideInFromTop {
+    0% {
+      transform: translateY(-100%);
+    }
+  
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+  
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(200%);
+    }
+  
+    100% {
+      transform: translateX(0);
+    }
+  }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: black;
@@ -13,13 +42,16 @@ body{
     float: right;
     margin-left: 10px;
     border-radius: 10px;
+    animation: 1s ease-out 0s 1 slideInFromRight;
 
 }
 #myself p{
     text-align:justify;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 #header {
     text-align: center;
+    animation: 1s ease-out 0s 1 slideInFromTop;
 }
 #header h1{
     color: rgb(0, 255, 51);
@@ -50,6 +82,8 @@ body{
     padding: 0px;
     /* centering the flex child */
     justify-content: center;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+
 
 }
 .area-1 img {
@@ -63,12 +97,15 @@ body{
     flex-direction: column;
     justify-content:space-around;
     align-items:center;
+    animation: 1s ease-out 0s 1 slideInFromRight;
+
 }
 .area-2 img{
     height: 40%;
     width: auto;
     padding-right: 10px;
     vertical-align: middle;
+
 }
 .area-2 h4{
     margin: 0;
@@ -76,6 +113,8 @@ body{
 .area-3{
     grid-area: three;
     padding: 0px;
+        animation: 1s ease-out 0s 1 slideInFromLeft;
+
 }
 .area-3 ol{
     list-style:lower-roman ;
@@ -122,6 +161,8 @@ tr:hover{
     padding: 0;
     border-radius: 0%;
     grid-area: four;
+    animation: 1s ease-out 0s 1 slideInFromRight;
+
 }
 .area-5{
     grid-area: five;
@@ -129,6 +170,8 @@ tr:hover{
     display: flex;
     align-items: center;
     padding: 0;
+    animation: 1s ease-out 0s 1 slideInFromRight;
+
 
 }
 .area-5 img{
@@ -137,6 +180,8 @@ tr:hover{
 }
 .area-6{
     grid-area: six;
+    animation: 1s ease-out 0s 1 slideInFromRight;
+
 }
 .area-6 ul{
     list-style: square;
@@ -156,6 +201,8 @@ tr:hover{
 }
 .area-7{
     grid-area: seven;
+    animation: 1s ease-out 0s 1 slideInFromRight;
+
 }
 .area-7 a{
     text-decoration: none;
@@ -176,4 +223,6 @@ tr:hover{
 .area-8 a > img{
     width: auto;
     height: 80px;
+    animation: 1s ease-out 0s 1 slideInFromRight;
+
 }
