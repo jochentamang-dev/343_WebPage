@@ -1,3 +1,4 @@
+console.log("HELLO, TS CODE CHECK")
 /**
  * AREA 4
  */
